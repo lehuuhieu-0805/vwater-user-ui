@@ -1,0 +1,66 @@
+{
+  "name": "vwater-user-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "^5.11.4",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-date-pickers": "^5.0.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clsx": "^1.2.1",
+    "date-fns": "^2.29.3",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "polyline-encoded": "0.0.9",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.5",
+    "react-html-parser": "^2.0.2",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-number-format": "^5.1.3",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "4.0.1",
+    "react-toastify": "8.0.0",
+    "reactstrap": "^9.1.5",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test --openssl-legacy-provider build",
+    "eject": "react-scripts eject --openssl-legacy-provider build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
+}

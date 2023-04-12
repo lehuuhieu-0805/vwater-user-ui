@@ -1,0 +1,90 @@
+.dialog-container {
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    
+}
+@media only screen and (min-width: 0px) and (max-width: 640px)  {
+    .dialog-container {
+        width: 84vw !important;
+    }
+}
+.dialog-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dialog_header-content {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.dialog_header-icon {
+    text-align: right;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.dialog_header-icon:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.dialog-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dialog_body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0 0 0;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-cancel {
+    background-color: rgb(170, 178, 189);
+}
+
+.btn-yes {
+    background-color: #518cf6;
+}

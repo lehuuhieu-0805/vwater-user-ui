@@ -1,0 +1,110 @@
+.order-cart-title {
+    background-color: #f6f9fc;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.order-cart-title-first {
+    margin-top: 0 !important;
+}
+
+.order-cart-subtitle {
+    color: #949597;
+    font-size: 14px !important;
+    padding-left: 10px;
+    margin-top: 10px !important;
+}
+
+.order-cart_content-user-info {
+    margin-top: 15px;
+    position: relative;
+}
+
+.item-user-info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.order-cart_content-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+
+.order-cart_content-item-left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-cart_content-item-right {
+    width: 30%;
+    text-align: right;
+}
+
+.order-cart_content-brief {
+    margin-top: 10px !important;
+
+}
+
+.order-cart_content-brief-item {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-cart-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 15px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 20%);
+}
+
+.order-cart_footer-payment-method {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.order-cart_footer-total {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-cart_footer-total-left {
+    flex: 60;
+}
+
+.order-cart_footer-total-right {
+    flex: 1;
+}
+
+.order-cart_footer-submit {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
